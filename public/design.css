@@ -1,0 +1,82 @@
+.body{
+    margin: 0px
+}
+
+.header{
+    border-bottom: 3px solid aqua;
+    background-color: black;
+    margin: 0px 0px 3px 0px;
+    
+}
+
+.header .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header .container ul{
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.header h1{
+    color:aqua;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.banner{
+    background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+.banner .container p {
+    font-size: 36px;
+    color: white;
+    width: 200px;
+}
+.social .container {
+    justify-content: center;
+}
+.social .container .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.social .container .box img{
+    width: 100px;   
+}
+.social .container .box{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    text-align: center;
+}

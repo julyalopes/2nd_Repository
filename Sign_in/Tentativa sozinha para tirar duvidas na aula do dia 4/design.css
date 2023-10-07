@@ -1,0 +1,82 @@
+.body {
+    margin: 0px;
+}
+
+.header {
+    border-bottom: 3px solid aqua;
+    background-color: black;
+    margin: 0px 0px 3px 0px;
+
+}
+
+.header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header .container ul {
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.header h1 {
+    color: aqua;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.sign_in {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(184, 241, 243);
+    margin: auto;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.campo {
+    width: 250px;
+    height: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.footer {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    color: rgb(29, 32, 32);
+
+}
